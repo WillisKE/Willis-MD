@@ -8,9 +8,9 @@
             "run": "pm2 start lib/smd.js --deep-monitoring --attach --name Suhail || node lib/smd.js",
             "start": "pm2 start lib/smd.js --attach --name Suhail || node lib/smd.js",
             "stop": "pm2 stop Suhail",
-            "heroku-postbuild": "git clone https://github.com/SuhailTechInfo/Suhail-Md.git temp1 && mv temp1/.git .git && rm -rf temp1"
+            "heroku-postbuild": "git clone https://github.com/WillisKE/Willis-MD.git temp1 && mv temp1/.git .git && rm -rf temp1"
    },
-   "author": "SuhailTechInfo",
+   "author": "WillisKE",
    "license" :"Apache-2.0",
    "dependencies": { 
              "@adiwajshing/keyed-db": "^0.2.4",
@@ -72,8 +72,8 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/SuhailTechInfo/Suhail-Md.git"
+      "url": "git+https://github.com/WillisKE/Willis-MD.git"
    },
-   "bugs": { "url": "https://github.com/SuhailTechInfo/Suhail-Md/issues" },
-   "homepage": "https://github.com/SuhailTechInfo/Suhail-Md#readme"
+   "bugs": { "url": "https://github.com/WillisKE/Willis-MD/issues" },
+   "homepage": "https://github.com/WillisKE/Willis-MD#readme"
 }
